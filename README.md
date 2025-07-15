@@ -1,5 +1,3 @@
-# COVID-19 Vaccination Trend Analysis Across USA Countries.
-
 
 # COVID-19 Vaccination Trend Analysis Across USA Countries.
 
