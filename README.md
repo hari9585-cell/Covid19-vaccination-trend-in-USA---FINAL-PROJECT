@@ -71,9 +71,9 @@ R² Score (Accuracy of the model)
 
 # Observations & Findings
 
-1) Random Forest Regressor provided the best results with R² = 1.0 and minimal prediction errors.
+1) Random Forest Regressor provided the best results with R² = 0.9960, and the lowest prediction errors (MAE and MSE), making it the most accurate and reliable model.
 
-2) The majority of counties had fully or partially vaccinated populations; few remained not vaccinated.
+2) Most counties had populations that were either partially or fully vaccinated, with few unvaccinated regions.
 
 3) Counties with the largest populations showed significantly higher vaccination numbers.
 
@@ -95,19 +95,19 @@ R² Score (Accuracy of the model)
 
 # ML Model performances:
 
-1) Random Forest	5,278.38 (MAE)	1.84 × 10⁹(MSE)	1.0000(R2)
+1) Random Forest	180.88 (MAE)	1.51 × 10⁶(MSE)	0.9960 (R2)
 
-2) Decision Tree	5,387.62 (MAE)	2.07 × 10⁹(MSE)	1.0000(R2)
+2) Decision Tree	219.77 (MAE)	2.36 × 10⁶(MSE)	0.9937 (R2)
 
-3) Linear Regression	566,800.29(MAE)	4.96 × 10¹²(MSE)	0.9752 (R2)
+3) Linear Regression	1556.74 (MAE)	5.14 × 10⁶ (MSE)	0.8633 (R2)
 
 # Result: 
-Random Forest was selected as the final model due to its low error and high accuracy.
+Random Forest was selected as the final model because it achieved the highest R² score and lowest error, showing strong generalization and reliable prediction.
 
 # Conclusion
 
 This project successfully demonstrated how machine learning can be applied to real-world health data to identify patterns and make predictions. 
-The analysis gave a clear view of how vaccine rollout progressed in different regions and provided a predictive framework for future planning.
+I used different models to see which one works best, and Random Forest gave the most accurate results. It helped me learn how to clean data, prepare features, train models, and explain results using graphs. The final model can help health officials or planners to understand vaccination trends and make better decisions.
 
 # SUBMISSION
 Name: Hari sankar
